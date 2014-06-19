@@ -55,9 +55,9 @@
 						<li><a href="index.php">Accueil</a></li>
 						<li><a href="gestion_articles.php">Gestion des articles</a>
 							<ul>
-							  <li><a href="add_article.php">Ajouter un article</a></li>
-							  <li><a href="#">Modifier un article</a></li>
-							 </ul>
+								<li><a href="gestion_articles.php">Modifier un article</a></li>
+								<li><a href="add_article.php">Ajouter un article</a></li>
+							</ul>
 						</li>
 						<li><a href="#">Onglet 3</a></li>
 						<li><a href="#">Onglet 4</a></li>

@@ -15,7 +15,6 @@
 <div class="actions">
 	<ul>
 		<li><a href="add_article.php">Ajouter un article</a></li>
-		<li><a href="#">Modifier un article</a></li>
 	</ul>	
 </div>
 
@@ -24,7 +23,7 @@
 		<th style="width: 40px;">ID</th>
 		<th style="width: 200px;">Titre</th>
 		<th style="width: 90px;">Date</th>
-		<th style="width: 30px;">Actions</th>
+		<th style="width: 200px;">Actions</th>
 	</thead>
 	<?php 
 		while ($row = mysql_fetch_assoc($query)) {
@@ -33,8 +32,11 @@
 					<td>' . $row['id_article'] . '</td>
 					<td>' . $row['title'] . '</td>
 					<td>' . $row['date'] . '</td>
-					<td></td>
-				</tr>
+					<td>
+						<a href="edit_article.php?id_article='. $row['id_article'] .'">Modifier</a>
+						<a href="gestion_articles.php?action=delete_article&id_article='. $row['id_article'] .'">Supprimer</a>
+					</td>
+					</tr>
 			';
 		}
 	?>

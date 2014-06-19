@@ -10,13 +10,17 @@ body{
 	text-align: center;
 	background-color: #fff;
 	}
-
+/*HEADER*/
 header.head div.title {
 	font-size: 45px;
 	font-weight: bold;
 	text-align: center;
 	color: orange;
 	background-color: #414141;
+	}
+	
+hr {
+	border: solid 2px grey;
 	}
 	
 h1 {
@@ -47,7 +51,7 @@ button {
 	background-color: lightgrey;
 	}
 
-
+/*MENU*/
 header.head nav.menu ul li {
 	display : inline-block;
 	text-decoration: none;
@@ -72,6 +76,7 @@ div.actions ul li a {
 	position: relative;
 	}
 	
+/*TABLEAU GESTION ARTICLE*/	
 table.tableau {
 	margin: auto;
 	border: solid 1px grey;
@@ -84,10 +89,6 @@ table.tableau th {
 table.tableau tr td {
 	margin: auto;
 	border: solid 1px ;
-	}
-	
-hr {
-	border: solid 2px grey;
 	}
 	
 form.add_article {
