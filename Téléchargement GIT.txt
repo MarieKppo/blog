@@ -1,0 +1,1 @@
+http://git-scm.com/book/fr/D%C3%A9marrage-rapide-Installation-de-Git

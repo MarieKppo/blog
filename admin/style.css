@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color: #414141;
+	font-family: Tahoma, arial;
+	margin: auto; 
+	text-align: center;
+	background-color: #fff;
+	}
+
+header.head div.title {
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	color: orange;
+	background-color: #414141;
+	}
+	
+h1 {
+	color: Orange;
+	font-size: 30px;
+	text-align: center;
+	font-weight: normal;
+	}	
+	
+form {
+	width: 400px;
+	margin: auto; 
+	}
+	
+fieldset {
+	border: 0px;
+	margin: 10px;
+	}
+	
+.row {
+	padding: 10px;
+	}
+
+button {
+	color: orange;
+	border-radius: 5px;
+	width: 200px;
+	background-color: lightgrey;
+	}
+
+
+header.head nav.menu ul li {
+	display : inline-block;
+	text-decoration: none;
+	transition-property: background;
+	transition-duration: 1.5s;
+	transition-timing-function: ease;
+	font-size: 14px;
+	padding: 0 7px;
+	background: #fff;
+	}
+
+div.actions ul li a {
+    list-style:none;
+	display : inline;
+	text-decoration: none;
+	transition-property: background;
+	transition-duration: 1.5s;
+	transition-timing-function: ease;
+	font-size: 14px;
+	padding: 0 7px;
+	background: #fff;
+	position: relative;
+	}
+	
+table.tableau {
+	margin: auto;
+	border: solid 1px grey;
+	border-collapse: collapse;
+	}
+
+table.tableau th {
+	font-weight: normal;
+	}
+table.tableau tr td {
+	margin: auto;
+	border: solid 1px ;
+	}
+	
+hr {
+	border: solid 2px grey;
+	}
+	
+form.add_article {
+	width: 400px;
+	}
